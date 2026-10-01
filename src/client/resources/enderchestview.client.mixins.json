@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "ws.ecview.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"EnderChestCaptureMixin",
+		"EnderChestCloseMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

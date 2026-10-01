@@ -1,0 +1,48 @@
+{
+	"schemaVersion": 1,
+	"id": "enderchestview",
+	"version": "${version}",
+	"name": "EnderchestView",
+	"description": "一个客户端末影箱快照mod，可以让你随时随地点开背包中的按钮查看末影箱。",
+	"authors": [
+		"WWZDGqs"
+	],
+	"contact": {
+		"homepage": "https://github.com/WWZDGqs",
+		"sources": "https://github.com/WWZDGqs"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/enderchestview/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			{
+				"value": "ws.ecview.EnderchestView",
+				"adapter": "kotlin"
+			}
+		],
+		"client": [
+			{
+				"value": "ws.ecview.EnderchestViewClient",
+				"adapter": "kotlin"
+			}
+		],
+		"modmenu": [
+			"ws.ecview.config.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"enderchestview.mixins.json",
+		{
+			"config": "enderchestview.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*",
+		"fabric-language-kotlin": "*"
+	}
+}
