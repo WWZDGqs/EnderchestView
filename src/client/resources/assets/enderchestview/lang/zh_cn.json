@@ -1,0 +1,12 @@
+{
+	"enderchestview.page.title": "末影箱预览",
+	"enderchestview.group.enderchest": "末影箱预览",
+	"enderchestview.option.ender_chest_enabled": "末影箱缓存",
+	"enderchestview.option.ender_chest_enabled.tooltip": "每次你打开末影箱，都会在本地保存一份 27 格内容，可随时查看最近一次的快照。",
+	"enderchestview.option.ender_chest_button": "背包按钮",
+	"enderchestview.option.ender_chest_button.tooltip": "在背包界面显示末影箱按钮，点击打开最近一次末影箱缓存。",
+	"enderchestview.option.ender_chest_view": "查看末影箱快照",
+	"enderchestview.option.ender_chest_view.tooltip": "打开末影箱快照界面，查看你最近一次打开末影箱时保存的内容（只读）。",
+	"enderchestview.screen.ender_chest.title": "末影箱",
+	"enderchestview.screen.ender_chest.empty": "？你都没保存还看个滚木"
+}
